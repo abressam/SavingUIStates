@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class CounterActivity : AppCompatActivity() {
 
     /** Created a textView variable that is the type TextView.
-     *  It's a private variable because only use in the MainActivity class.
+     *  It's a private variable because only use in the CounterActivity class.
      *  lateinit only accept mutable variable (var) and is not allowed with null data types (cannot be TextView?)
      *  lateinit it's a promise to compiler that the value will be initialized in future.
      */
@@ -51,10 +51,14 @@ class MainActivity : AppCompatActivity() {
         textView.text = result.toString()
     }
 
+    // This function will save the instance state
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
 
+        // Created a counterText variable with textView type and convert to string
         val counterText = textView.text.toString()
+
+        // The outState will use the same key set at the beginning
         outState.putString("key_count_num", counterText)
     }
 
