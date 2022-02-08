@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/amand/Documents/Applications/SavingUIStates/app/src/main/res/layout/activity_counter.xml" value="0.1" />
         <entry key="..\:/Users/amand/Documents/Applications/SavingUIStates/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/amand/Documents/Applications/SavingUIStates/app/src/main/res/layout/activity_tool_bar.xml" value="0.27025641025641023" />
+        <entry key="..\:/Users/amand/Documents/Applications/SavingUIStates/app/src/main/res/layout/fragment_counter.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/amand/Documents/Applications/SavingUIStates/app/src/main/res/menu/menu.xml" value="0.6" />
       </map>
     </option>
   </component>
